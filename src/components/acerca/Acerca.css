@@ -1,0 +1,61 @@
+.acerca{
+    flex-basis:60%;
+    background-color: #ebd8ce;
+}
+
+.infolab{
+    padding: 10px 30px;
+}
+
+.titlab{
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 5px 20px;
+    color: #867870;
+    display: inline;
+}
+
+i{
+    background-color: #fefefd;
+    padding: 10px;
+    border-radius: 50%;
+    color: #867870;
+    font-size: 20px;
+    margin: 15px 10px;
+}
+
+.izq{
+    display: flex;
+}
+
+.izq i{
+    border: 3px solid #fefefd;
+    font-size: 15px;
+    color: #b5a9a1;
+}
+
+.der{
+    display: flex;
+}
+
+.der i{
+    border: 3px solid #fefefd;
+    font-size: 15px;
+    color: #b5a9a1;
+}
+
+.estudio p, h4{
+    padding-left: 25px;
+    margin: 7px 0;
+}
+
+progress[value]{
+    width: 90%;
+    height: 12px;
+    appearance: none;
+    color: #ebd8ce;
+}
+
+progress::-moz-progress-bar {background-color: #fefefd;}
+progress::-webkit-progress-bar {background-color: #888;}
+

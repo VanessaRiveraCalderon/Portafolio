@@ -1,0 +1,77 @@
+header{
+    background-color: #fffbf8;
+    display: flex;
+    margin-top: 20px;
+}
+
+.foto{
+    flex-basis: 40%;
+    background-color: #f8f2e8ee;
+}
+
+.foto img{
+    width: 180px;
+    height: 170px;
+    border-radius: 50%;
+    border: 3px solid #ebd8ce;
+    margin: 10px 22%;
+}
+
+.texto{
+    flex-basis: 60%;
+    background-color: #ebd8ce;
+}
+
+.texto h1{
+    color:#fff;
+}
+
+.foto h1{
+    position: relative;
+}
+
+.foto h3{
+    font-weight: 200;
+    color: #29251e;
+    margin: 2px 40px;
+}
+
+.nombre{
+    color: #e2ccc0;
+    margin: 5px 40px;
+}
+
+.nom{
+    color: #b5a9a1;
+}
+
+.infoe{
+    background-color: #ebd8ce;
+    padding: 10px 8px;
+}
+
+.infoe i{
+    background-color: #fefefd;
+    padding: 10px;
+    border-radius: 50%;
+    color: #867870;
+    font-size: 20px;
+    margin: 15px 10px;
+    margin-left: 30px;
+}
+
+.estudio h3, h4{
+    padding-left: 25px;
+}
+
+.estudio p{
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-bottom: 18px;
+}
+
+.infoe hr{
+    border-bottom: 3px solid #fff;
+    width: 80%;
+    margin: 4px auto;
+}
